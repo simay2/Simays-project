@@ -60,6 +60,7 @@ import java.awt.Component;
  		rightPanel.setLayout(new BoxLayout(rightPanel, BoxLayout.Y_AXIS));
  		rightPanel.setBackground(Color.WHITE);
  		
+		//left side
  		JLabel titleLabel  = new JLabel("Film Review");
  		titleLabel.setBackground(Color.white);
  		titleLabel.setOpaque(true);
@@ -100,8 +101,9 @@ import java.awt.Component;
   			}
   		}
   		criticArea.setText(text);
-
- 
+		
+		//right side
+		
   		SimpleDateFormat ft = new SimpleDateFormat("dd. M yyyy");
  		JLabel currentDateLabel = new JLabel(ft.format(new Date()));
  		currentDateLabel.setHorizontalAlignment(SwingConstants.CENTER);
